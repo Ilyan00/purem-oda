@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/swb1pcs.css" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-white p-5 w-screen h-screen flex flex-col filosophia">
+    <header
+      class="flex items-center justify-between border-2 border-black px-5 py-2 rounded-lg"
+    >
+      <h2 class="hwt uppercase font-bold hwt">Purem <br />Oda</h2>
+      <ul class="underline-none flex uppercase justify-around gap-12">
+        <li class="cursor-pointer hover:underline">Womenswear</li>
+        <li class="cursor-pointer hover:underline">Menswear</li>
+        <li class="cursor-pointer hover:underline">Kids</li>
+        <li class="cursor-pointer hover:underline">Sale</li>
+        <li class="cursor-pointer hover:underline">Discover</li>
+      </ul>
+      <div class="flex gap-2 items-center">
+        <div
+          class="bg-gray-100 flex items-center justify-start gap-2 px-3 py-1 rounded-full"
+        >
+          <i data-lucide="search" class="w-3"></i>
+          <p class="opacity-75">Search</p>
+        </div>
+        <i data-lucide="heart" class="cursor-pointer w-5"></i>
+        <i data-lucide="Mail" class="cursor-pointer w-5"></i>
+      </div>
+    </header>
+
+    <main class="grow grid grid-cols-4 grid-rows-3 gap-3 mt-5 h-full w-full">
+      <div
+        class="cursor-pointer bg-gray-custom col-span-2 row-span-2 p-10 flex flex-col justify-between rounded-xl"
+      >
+        <h2 class="hwt uppercase text-5xl">
+          For <br />
+          everyone but notanyone
+        </h2>
+        <p>
+          We establish personal relationships with our boutiques, to make sur
+          each is vetted for a stress-free shopping experience
+        </p>
+      </div>
+
+      <div
+        class="cursor-pointer relative flex items-end col-span-2 row-span-3 overflow-hidden rounded-xl"
+      >
+        <img
+          src="./image/man-black-hat.jpg"
+          class="absolute -z-10 w-full h-full object-cover"
+          alt="promotion photo"
+        />
+        <div class="flex w-full justify-end gap-2 px-2 py-15">
+          <div
+            class="flex justify-between p-1 h-fit w-2/5 items-center bg-white rounded-full"
+          >
+            <p class="px-2 uppercase">Learn More</p>
+            <div class="bg-black p-2 text-white rounded-full">
+              <i data-lucide="move-down" class="h-3 w-3"></i>
+            </div>
+          </div>
+          <div
+            class="flex justify-between p-1 h-fit w-2/5 items-center bg-none border-1 border-white text-white rounded-full"
+          >
+            <p class="px-2 uppercase">Contact us</p>
+            <div class="bg-white p-2 text-black rounded-full">
+              <i data-lucide="Mail" class="h-3 w-3"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="cursor-pointer relative overflow-hidden flex items-end rounded-xl"
+      >
+        <img
+          src="./image/hat.jpg"
+          class="absolute -z-10 w-full h-full object-cover"
+          alt="promotion photo"
+        />
+        <h2 class="uppercase hwt text-white px-5 py-3">#rip stop</h2>
+      </div>
+
+      <div
+        class="cursor-pointer relative overflow-hidden flex items-end rounded-xl"
+      >
+        <img
+          src="./image/green-bg-brown-hat.jpg"
+          class="absolute -z-10 w-full h-full object-cover"
+          alt="promotion photo"
+        />
+        <h2 class="uppercase hwt text-white px-5 py-3">#Insulated</h2>
+      </div>
+    </main>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
