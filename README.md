@@ -16,7 +16,7 @@ Ce projet est une reproduction d'une maquette en utilisant Tailwind CSS. L'objec
    ```sh
    cd purem-oda
    ```
-3. Installez les dépendances (si applicable) :
+3. Installez les dépendances :
    ```sh
    npm install
    ```
